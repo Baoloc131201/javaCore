@@ -1,0 +1,23 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       HangSanXuat h1=new HangSanXuat("Honda", "VietNam");
+       HangSanXuat h2=new HangSanXuat("SuzuKi", "Japan");
+       HangSanXuat h3=new HangSanXuat("yamaha", "China");
+       
+       phuongTienDiChuyen pt1=new MayBay("Máy Bay", h1, "dầu");
+       phuongTienDiChuyen pt2=new XeOto("Xe ô tô", h2, "xăng");
+       phuongTienDiChuyen pt3=new XeDap("Xe đạp", h3);
+       
+       System.out.println("Bắt Đầu:");
+       pt1.batdau();
+       pt1.dunglai();
+       System.out.println("Lấy vận tốc:");
+       System.out.println("pt1: "+pt1.loaiPhuongTien+" "+pt1.layvantoc());
+       System.out.println("pt1: "+pt2.loaiPhuongTien+" "+pt2.layvantoc());
+       System.out.println("pt1: "+pt3.loaiPhuongTien+" "+pt3.layvantoc());
+	}
+
+}

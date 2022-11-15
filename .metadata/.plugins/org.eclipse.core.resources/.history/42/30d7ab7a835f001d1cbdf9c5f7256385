@@ -1,0 +1,7 @@
+
+public abstract class phuongTienDiChuyen {
+	protected String loaiPhuongTien;
+    protected HangSanXuat hangsanxuat;
+	public void layTenHangSanXuat() {
+    	}
+}

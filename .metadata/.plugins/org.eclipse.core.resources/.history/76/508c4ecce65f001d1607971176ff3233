@@ -1,0 +1,18 @@
+
+public abstract class phuongTienDiChuyen {
+	protected String loaiPhuongTien;
+    protected HangSanXuat hangsanxuat;
+    
+	public phuongTienDiChuyen(String loaiPhuongTien, HangSanXuat hangsanxuat) {
+		super();
+		this.loaiPhuongTien = loaiPhuongTien;
+		this.hangsanxuat = hangsanxuat;
+	}
+
+	public String layTenHangSanXuat() {
+		return this.hangsanxuat.getTenHangSanXuat();
+    }
+	public void batdau() {
+		System.out.println("bắt đầu");
+	}
+}

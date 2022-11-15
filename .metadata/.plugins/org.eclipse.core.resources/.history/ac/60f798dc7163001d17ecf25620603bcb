@@ -1,0 +1,72 @@
+
+public class Sinhvien implements Comparable<Sinhvien> {
+	private int masinhvien;
+	private double diem;
+	private String name;
+	private String tenlop;
+
+	public Sinhvien(int masinhvien, double diem, String name, String tenlop) {
+		super();
+		this.masinhvien = masinhvien;
+		this.diem = diem;
+		this.name = name;
+		this.tenlop = tenlop;
+	}
+
+	public int getMasinhvien() {
+		return masinhvien;
+	}
+
+	public void setMasinhvien(int masinhvien) {
+		this.masinhvien = masinhvien;
+	}
+
+	public double getDiem() {
+		return diem;
+	}
+
+	public void setDiem(double diem) {
+		this.diem = diem;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getTenlop() {
+		return tenlop;
+	}
+
+	public void setTenlop(String tenlop) {
+		this.tenlop = tenlop;
+	}
+    public String getTen() {
+    	String s=this.name.trim();
+//    	if(s.indexOf(" ")>=0) {
+//    		int vt=s.lastIndexOf(" ");
+//    		System.out.println(s.substring(vt+1));
+//    		return s.substring(vt+1);
+//    	}
+    	
+    	if(s.lastIndexOf(" ")>=0) {
+    		int vt=s.lastIndexOf(" ");
+    		System.out.println(s.substring(vt+1));
+    		return s.substring(vt-1);
+    	}
+    	else {
+    		System.out.println(s);
+    		return s;
+    	}
+    }
+	@Override
+	public int compareTo(Sinhvien o) {
+		String ten1=this.getTen();
+		String ten2=o.getTen();
+		return ten1.compareTo(ten2);
+	}
+
+}

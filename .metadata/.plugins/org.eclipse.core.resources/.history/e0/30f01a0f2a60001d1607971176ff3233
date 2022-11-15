@@ -1,0 +1,4 @@
+
+public interface SapXepInterface {
+   public void SapxepTang(double []arr);
+}

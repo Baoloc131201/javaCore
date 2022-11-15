@@ -1,0 +1,9 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Sinhvien sv1=new Sinhvien(100, 8.5, "Huỳnh Bảo Lộc", "CNTTD");
+	}
+
+}

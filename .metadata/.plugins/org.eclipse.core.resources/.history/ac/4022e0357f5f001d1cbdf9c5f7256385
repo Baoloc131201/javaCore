@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      ToaDo d1=new ToaDo(10, 20);
+      ToaDo d2=new ToaDo(20, 30);
+      
+//      Hinh h1=new Hinh(); // lỗi biên dịch  vì bản thân là abstract k thể new ra chính nó
+	}
+
+}

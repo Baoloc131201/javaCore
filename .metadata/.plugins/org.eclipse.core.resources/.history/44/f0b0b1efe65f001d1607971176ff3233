@@ -1,0 +1,11 @@
+
+public class MayBay extends phuongTienDiChuyen {
+
+	private String loainhienlieu;
+
+	public MayBay(String loaiPhuongTien, HangSanXuat hangsanxuat, String loainhienlieu) {
+		super(loaiPhuongTien, hangsanxuat);
+		this.loainhienlieu = loainhienlieu;
+		// TODO Auto-generated constructor stub
+	}
+}

@@ -1,0 +1,11 @@
+command=C\:\\Program Files\\Java\\jdk-11.0.8\\bin\\javadoc.exe
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="MyDate"><rhs name\="MyDate"/></lhs><lhs name\="HoaDonCF"><rhs name\="HoaDonCF"/></lhs><lhs name\="HangSanXuat"><rhs name\="HangSanXuat"/></lhs><lhs name\="BoPhim"><rhs name\="BoPhim"/></lhs><lhs name\="ToaDo"><rhs name\="ToaDo"/></lhs><lhs name\="Hinh"><rhs name\="HinhChuNhat"/><rhs name\="HinhTron"/><rhs name\="Diem"/></lhs><lhs name\="phuongTienDiChuyen"><rhs name\="MayBay"/><rhs name\="XeOto"/><rhs name\="XeDap"/></lhs><lhs name\="MayTinhBoTuiInterface"><rhs name\="MayTinhcasio500"/></lhs><lhs name\="MayTinhcasio500"><rhs name\="MayTinhcasio500"/></lhs><lhs name\="SapXepInterface"><rhs name\="SapXepChon"/></lhs><lhs name\="SapXepChon"><rhs name\="SapXepChon"/></lhs></history>
+content_assist_number_of_computers=23
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=20
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,22 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "Bảo Lộc";
+		String s2 = "Bảo Lộc";
+		String s3 = "bảo lộc";
+		// hàm equals: so sánh 2 chuỗi giống nhau và có phân biệt hoa thường
+		System.out.println(s1.equals(s3));
+		//hàm equalsIgnoreCase:so sánh k phân biệt chữ hoa thường và chỉ so sánh nội dung giống nhau
+		System.out.println(s1.equalsIgnoreCase(s3));
+		// hàm compareTo => so sánh > < =, hàm này sẽ trả ra cho mình 3 giá trị:âm, 0, 1 con số dương
+		// nó sẽ kiểm tra kí tự và chuyển đổi thành số trong bảng mã ascii
+		String v1="Huỳnh Bảo Lộc";
+		String v2="Huỳnh Bảo Văn";
+		String v3="Huỳnh Anh Dự";
+		System.out.println(v1.compareTo(v2));
+		
+	}
+
+}

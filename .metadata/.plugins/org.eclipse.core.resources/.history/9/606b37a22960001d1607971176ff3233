@@ -1,0 +1,10 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        MayTinhcasio500 mt1=new MayTinhcasio500();
+        System.out.println("5/0= "mt1.chia(5, 0));
+	}
+
+}

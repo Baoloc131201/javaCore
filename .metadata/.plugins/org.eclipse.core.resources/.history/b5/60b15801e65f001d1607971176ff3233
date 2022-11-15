@@ -1,0 +1,10 @@
+
+public class XeOto extends phuongTienDiChuyen {
+	
+
+	private String loaiNhienLieu;
+	public XeOto(String loaiPhuongTien, HangSanXuat hangsanxuat) {
+		super(loaiPhuongTien, hangsanxuat);
+		// TODO Auto-generated constructor stub
+	}
+}

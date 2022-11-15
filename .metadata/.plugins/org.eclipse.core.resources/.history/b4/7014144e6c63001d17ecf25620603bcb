@@ -1,0 +1,10 @@
+
+public class ArrayCop {
+	public static void main(String[] args) {
+		
+		double []arr1= {1,2,3};
+		double [] arr2=arr1;
+		System.out.println(arr2.toString());
+     	}
+	
+}

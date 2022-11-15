@@ -1,0 +1,15 @@
+
+public class HinhChuNhat extends Hinh {
+    private double chieudai,chieurong;
+	public HinhChuNhat(ToaDo toaDo) {
+		super(toaDo);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void tinhDientich() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

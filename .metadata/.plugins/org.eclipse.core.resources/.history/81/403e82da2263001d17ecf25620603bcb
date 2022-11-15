@@ -1,0 +1,14 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "Bảo Lộc";
+		String s2 = "Bảo Lộc";
+		String s3 = "bảo lộc";
+		// hàm equals: so sánh 2 chuỗi giống nhau và có phân biệt hoa thường
+		System.out.println(s1.equals(s3));
+		//hàm equalsIgnoreCase: k phân biệt chữ hoa thường và chỉ so sánh nội dung giống nhau
+	}
+
+}
